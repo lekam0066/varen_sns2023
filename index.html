@@ -1,62 +1,48 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.98.0">
     <title>CWB</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="css/sc.css">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
-<body>
-  <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">CWB</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">ビジョン</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">選ばれる理由</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">サービス内容</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">サービスの流れ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">導入例</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">料金</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">企業情報</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">お問い合わせ</a>
-          </li>
-        </ul>
-       
+  <body>  
+    <header id="top-head">
+      <div class="inner">
+        <h1><a href="#">CWB</a></h1>
+        <div id="nav_toggle">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            
+            <li><a href="#vision">ビジョン</a></li>
+            <li><a href="#select">選ばれる理由</a></li>
+            <li><a href="#service">サービスの流れ</a></li>
+            <li><a href="#plan">料金</a></li>
+            <li><a href="#">導入例</a></li>
+            <li><a href="#">企業情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </nav>
-</header>
-
-  <main>
-  <!-- TOP -->
+    </header>
+   
+    <!-- TOP -->
   <section class="wrapper">
     <div class="container">
         <div class="content">
@@ -71,10 +57,10 @@
 </section>
   <!-- TOP END-->
 <!-- section01 -->
-<section class="wrapper01">
+<section class="wrapper01" id="vision">
   <div class="container01">
       <div class="content01">
-          <h2 class="heading01"><b>VISION</b></h2>
+          <h2 class="heading01"><b>ビジョン</b></h2>
           <p class="heading01">
             SNSのサービスを活用して、日々の暮らしをもっと便利に </p>
             <a  class="btn btn-primary" href="https://lekam0066.github.io/varen_sns2023/page01" role="button">もっと詳しく知る</a>
@@ -83,35 +69,41 @@
 </section>
 <!-- section01 end -->
 <!-- section02 -->
-<section class="wrapper02">
+<section class="wrapper02" id="select">
   <div class="container02">
       <div class="content02">
           <h2 class="heading02">選ばれる理由</h2>
+          
           <div class="list02">
               <div class="list-item02">
-                  <img src="images/306.png" class="image02">
-                  <div class="text02"><h4>01</h4></div>
-                  <div class="text02"><h4>あなたのアンバサダー</h4></div>
-                  <div class="text02">お客様の目指す姿に<br>相違ないサポート体制。<br><br></div>
+                <p class="pointNum bgYel txtWhite tac">01</p>
+                  <img src="./images/306.png" class="image02">
+                
+                  <h4 class="courseH5 fwb txtcol txt-title">あなたのアンバサダー</h4>
+                  <p class="pointBtm">お客様の目指す運用をサポート。<br>ヒアリングを通してさまざまな形でのSNS運用を提案します。<br></p>
               </div>
               <div class="list-item02">
-                  <img src="images/736.png" class="image02">
-                  <div class="text02"><h4>02</h4></div>
-                  <div class="text02"><h4>「いま」を見直し、「未来」に活かす</h4></div>
-                  <div class="text02">フォロワー数向上や広報などを<br>支援</div>
+                <p class="pointNum bgYel txtWhite tac">02</p>
+                  <img src="./images/736.png" class="image02">
+              
+                  <h4 class="courseH5 fwb txtcol txt-title">今を見直し未来に活かす</h4>
+                  
+                  
+                  <p class="pointBtm">フォロワー数向上や広報などを効果的に支援。最適な運用を行うことで売上に繋がる運用をサポート<br></p>
               </div>    
               <div class="list-item02">
+                <p class="pointNum bgYel txtWhite tac">03</p>
                   <img src="images/photo03.png" class="image02">
-                  <div class="text02"><h4>03</h4></div>
-                  <div class="text02"><h4>走り続けるプレイヤー</h4></div>
-                  <div class="text02">CWBはSNS運用や動画作成を請け負うだけでなく、プレイヤーとして日々運用しております。</div>
+                  
+                  <h4 class="courseH5 fwb txtcol txt-title">走り続けるプレイヤー</h4>
+                 
+                  <p class="pointBtm">CWBはSNS運用や動画作成を現役プレイヤーが担当。だから現役に質問できる！</p>
               </div>
           </div>
       </div>
   </div>
 </section>
 <!-- section02 end -->
-
 
 <!--section03 選ばれる理由の詳細 -->
 <!-- <hr class="featurette-divider"> -->
@@ -123,7 +115,8 @@
           </div>    
           <div class="content-itemo3">
               <div class="text03">
-                  <h2 class="heading03"><p class="text03">01</p>あなたのアンバサダー</h2>
+                <p class="pointNum bgYel txtWhite tac">01</p><br><br>
+                  <h2 class="heading03">あなたのアンバサダー</h2>
                   <p>
                     動画制作やInstagram運用などのSNSでの課題や目標は様々です。<br>
                     お客様の目指す姿に相違ないようヒアリングを継続し効果的で納得感のあるサービスを提供します。
@@ -143,7 +136,7 @@
           </div>    
           <div class="content-item04">
               <div class="text04">
-                <h2 class="heading04"><p class="text04">02</p>「いま」を見直し、「未来」に活かす</h2>
+                <h2 class="heading04"><p class="pointNum bgYel txtWhite tac">02</p><br><br>「今」を見直し、「未来」に活かす</h2>
                   <p>
                     Googleの検索システムと同じように様々なSNSはアルゴリズムが存在し、
                     日々更新されています。
@@ -163,7 +156,8 @@
         </div>    
         <div class="content-item03">
             <div class="text03">
-              <h2 class="heading03"><p class="text03">03</p>走り続けるプレイヤー</h2>
+              
+              <h2 class="heading03"><p class="pointNum bgYel txtWhite tac">03</p><br><br>走り続けるプレイヤー</h2>
                 <p>
                   CWBは1人1人現役のプレイヤーです。<br>お客様の希望に寄り添うため、SNSの現状と真剣に向き合い、個々人がSNS運用または動画制作をしています。<br>
                   そのため、ここだけの情報が溢れています。                      
@@ -175,174 +169,165 @@
     </div>
 </div>
 </section>
-<!-- section05 サービスの流れ -->
-<section class="wrapper05">
-  <div class="container05">
-    <h2 class="display-6 text-center mb-4" style="padding:100px;">サービスの流れ</h2>
-    
-      <div class="content05">
-          <div class="content-item05">
-              <img src="img/sample-1.jpg" class="image05">
-          </div>    
-          <div class="content-item05">
-              <div class="text05">
-                
-                  <h2 class="heading05"></h2>
-                  <p>PNG画像でここに表示</p>
-              </div>
-          </div>
-      </div>
+ <!-- スクールの概要 -->
+ <section id="summary" id="service">
+  <div class="wrapper">
+    <h2 class="section-title">サービスの流れ</h2>
+
+    <ul class="menu">
+      <li>
+        <h3 class="menu-title">
+          <span class="ja"><p class="pointNum bgPink txtWhite tac">01</p></span>
+          <span class="en">カウンセリング予約</span>
+        </h3>
+        <p>まずは無料カウンセリングをご予約ください。最適な運用を提案いたします。</p>
+        <img src="./images/550.png"　width="220" height="200">
+      </li>
+      <li>
+        <h3 class="menu-title">
+          <span class="ja"><p class="pointNum bgPink txtWhite tac">02</p></span>
+          <span class="en">申し込み締結</span>
+        </h3>
+        <p>方針が決まりましたら、契約を締結し、契約書をメールで送付いたします。</p>
+        <img src="./images/ic031.png" width="220" height="200">
+      </li>
+      <li>
+        <h3 class="menu-title">
+          <span class="ja"><p class="pointNum bgPink txtWhite tac">03</p></span>
+          <span class="en">戦略・改善提案</span>
+        </h3>
+        <p>週一回のWeb会議でSNS運用等のアドバイスを行います。</p>
+        <img src="./images/755.png" width="220" height="200">
+      </li>
+      <li>
+        <h3 class="menu-title">
+          <span class="ja"><p class="pointNum bgPink txtWhite tac">04</p></span>
+          <span class="en">改善提案</span>
+        </h3>
+        <p>月一回の面談で、施策効果を確認し、改善提案を行います</p>
+        <img src="./images/846.png" width="220" height="200">
+      </li>
+    </ul>
   </div>
 </section>
-<!-- section05 end-->
-
-
-
-
-<!-- section06 -->
-<section>
-<div class="container py-3">
-         
-  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-    <h1 class="display-4 fw-normal">Price</h1>
-    <p class="lead">プランと契約人数に応じた料金しかいただきません</p>
-  </div>
-</div>
-</section>
-<!-- section06 end-->
-
 
 <!-- section07 -->
-<section class="group-card">
+<section class="group-card" id="plan">
   <div class="card-container">
       <div class="card-content">
-          
+        <h2 class="section-title">料金</h2>
           <div class="c-list">
-
-
             <div class="card-list">
-              <img src="images/sns2.png" class="c-image">
+              <img src="images/1168.png" class="c-image">
               <div class="card-header">Instagram運用</div>
               <div class="card-body">
-                <h5 class="card-title">￥89,000 / 月(税込)</h5>
+                <h5 class="card-title">￥30,000 / 月(税込)</h5>
               <p class="card-text">
-                完全外部運用<br>専属アンバサダーがアカウントを運用<br>ゼロスタートからアカウントの成長を助長する最適なプラン
+                完全外部運用<br>専属アンバサダーがアカウントを運用。ゼロスタートからアカウントの成長を支援する最適なプラン。
               </p>
               
-              <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="button-001">詳しく</button>
-              </div>
+              <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="btn btn-primary">詳しく</button>
+            </div>
           </div>
           <div class="card-list">
-              <img src="images/sns2.png" class="c-image">
+              <img src="images/609.png" class="c-image">
               <div class="card-header">動画制作</div>
               <div class="card-body">
                 <h5 class="card-title">￥88,000 / 月4本(税込)</h5>
                 <p class="card-text">
-                  会社・クリエイター向けの動画制作<br>動画構成・撮影から編集・集客導線の構築を行うプラン<br><br></p>
-                  <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="button-001">詳しく</button>
+                  会社・クリエイター向けの動画制作<br>動画構成・撮影から編集・集客導線の構築を行うプラン。継続的な動画編集も相談可。</p>
+                  <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="btn btn-primary">詳しく</button>
               </div>
           </div>    
           <div class="card-list">
-            <img src="images/sns2.png" class="c-image">
+            <img src="images/1382.png" class="c-image">
             <div class="card-header">YOUTUBEコンサル</div>
             <div class="card-body">
-              <h5 class="card-title">￥88,000 / 月4本(税込)</h5>
-              <p class="card-text">YouTubeコンテンツの企画・制作、チャンネル運用支援<br>
-                あなたの動画運営がスムーズになるよう万全のサポートをします！
-                <br></p>
-                <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="button-001">詳しく</button>
+              <h5 class="card-title">￥20,000 / 月4本(税込)</h5>
+              <p class="card-text">
+                YouTubeコンテンツ企画制作支援<br>チャンネル運用支援をします。<br>あなたの動画運営がスムーズになるよう万全サポート！</p>
+                <button onclick="location.href='https://lekam0066.github.io/varen_sns2023/page02'" class="btn btn-primary">詳しく</button>
             </div>
-        　</div>    
-
-
-  
-          </div>
+        </div>    
       </div>
+    </div>
   </div>
 </section>
 <!-- section07 end-->
-<!-- toiawase -->
-<!-- section08 -->
-<section class="toiawase08">
-<div class="container">
-  <div class="main container-fluid">
-      <div class="row  text-dark py-5">
-          <div class="col-md-8 offset-md-2">
-              <h2 class="fs-1 mb-5 text-center text-dark fw-bold">お問い合わせ</h2>
-              <form method="post" action="mail.php">
-                  <div class="mb-3">
-                      <input type="text" class="form-control" name="お名前" placeholder="名前（必須）" value="">
-                  </div>
-                  <div class="mb-3">
-                      <input type="text" class="form-control" name="住所" placeholder="住所" value="">
-                  </div>
-                  <div class="mb-3">
-                      <input type="text" class="form-control" name="Email" placeholder="メールアドレス（必須）" value="">
-                  </div>
-                  <div class="mb-3">
-                      <input type="text" class="form-control" name="電話番号" placeholder="電話番号" value="">
-                  </div>
-                  <div class="mb-4">
-                      <textarea class="form-control" name="お問い合わせ内容" rows="5" placeholder="メッセージを入力してください"></textarea>
-                  </div>
-                  <div class="form-check mb-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                      <label class="form-check-label" for="flexCheckIndeterminate">
-                        利用規約に同意します。<a href="" target="_blank" rel="noopener noreferrer" class="text-decoration-underline text-dark">プライバシーポリシーはこちら</a>
-                      </label>
-                    </div>
-                  <div class="text-center pt-4 col-md-6 offset-md-3">
-                      <button type="submit" class="btn btn-primary">送信</button>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </div>
-  </div>
+<!-- よくある質問 -->
+<section style="background-color: antiquewhite; height: 500px;">
+    <div id="entry" class="wrapper" >
+      <p class="title">FAQ</p>
+      <p class="catchphrase">
+        <details class="qa-007">
+          <summary >どのような特徴がありますか？</summary>
+            <p>他サービスよりも柔軟に対応可能で、かつ比較的に安価な料金でご提供させていただいております。</p>
+        </details>
+      </p>
+      <p class="catchphrase">
+        <details class="qa-007">
+          <summary >最短でどれくらいの速さで結果が出せますか</summary>
+            <p>過去の案件では、半年で１万フォロワーを実現した事例もあります。<br>※結果をお約束するものではございません。</p>
+        </details>
+      </p>
+      <p class="catchphrase">
+        <details class="qa-007">
+          <summary >記載しているプラン以外で相談したいことがあります。対応可能ですか？</summary>
+            <p>まずは無料のカウンセリングをご予約ください。</p>
+        </details>
+      </p>
+    </div>
 </section>
-
-
 <!-- end-->
 
-  </main>
-  <!-- footer-->
-  <footer class="footer">
-    <div class="md-flex md-justify-between">
-      <a href="https://jajaaan.co.jp/" class="footer__logo">
-        
-      </a>
-      <div class="grid">
-        <div>
-          <p class="footer__navi-heading">SERVICE</p>
-          <ul class="footer__navi">
-            <li><a href="#">サービスA</a></li>
-            <li><a href="#">サービスB</a></li>
-            <li><a href="#">サービスC</a></li>
-          </ul>
-        </div>
-        <div>
-          <p class="footer__navi-heading">FOLLOW US</p>
-          <ul class="footer__navi">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-          </ul>
-        </div>
-        <div>
-          <p class="footer__navi-heading">ABOUT</p>
-          <ul class="footer__navi">
-            <li><a href="#">企業情報</a></li>
-            <li><a href="#">お問い合わせ</a></li>
-            <li><a href="#">サイトマップ</a></li>
-            <li><a href="#">プライバシーポリシー</a></li>
-          </ul>
-        </div>
+<div id="entry" class="wrapper">
+  <p class="title">まずは無料カウンセリング</p>
+  <p class="catchphrase">※無理な勧誘は一切ありません。</p>
+  <a class="btn" href="#">カウンセリング予約</a>
+</div>
+<!-- footer-->
+<footer class="footer">
+  <div class="md-flex md-justify-between">
+    <a href="https://jajaaan.co.jp/" class="footer__logo">
+      
+    </a>
+    <div class="grid">
+      <div>
+        <p class="footer__navi-heading bottom-a">プラン一覧</p>
+        <ul class="footer__navi">
+          <li><a class="bottom-a" href="#">Instagram運用プラン</a></li>
+          <li><a class="bottom-a" href="#">動画制作プラン</a></li>
+          <li><a class="bottom-a" href="#">YOUTUBEコンサルプラン</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__navi-heading">FOLLOW US</p>
+        <ul class="footer__navi">
+          <li><a class="bottom-a" href="#">Instagram</a></li>
+          <li><a class="bottom-a" href="#">Twitter</a></li>
+          <li><a class="bottom-a" href="#"></a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__navi-heading">ABOUT</p>
+        <ul class="footer__navi">
+          <li><a  class="bottom-a" href="#">企業情報</a></li>
+          <li><a class="bottom-a" href="#">お問い合わせ</a></li>
+          <li><a class="bottom-a" href="#">ご利用規約</a></li>
+          <li><a class="bottom-a" href="#">プライバシーポリシー</a></li>
+        </ul>
       </div>
     </div>
-    <hr />
-    <p class="copyright">© 2023 <a href="https://jajaaan.co.jp/">CWB Inc.</a> All Rights Reserved.
-    </p>
-  </footer>
-  <!-- footer end-->
-</body>
+  </div>
+  <hr />
+  <p class="copyright">© 2023 <a href="">CWB Inc.</a> All Rights Reserved.
+  </p>
+</footer>
+<!-- footer end-->
+
+
+  </body>
+  
+  
+  </body>
 </html>
